@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: black;
+   
+}
+
+
+.nextLevel{
+    background-color: black;
+    width: max-content;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    align-items: center;
+
+
+}
+
+.nextLevel span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nextLevel button{
+    font-size: 30px;
+    background-color: white;
+    width: max-content;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+
+
+    
+}
